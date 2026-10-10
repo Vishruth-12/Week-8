@@ -8,4 +8,6 @@
 
 These solutions use inheritance and method overriding so different types implement a common operation and are processed uniformly.
 
-The PDF also includes 10 multiple-choice quiz questions and 10 conceptual questions about inheritance and polymorphism. The code folder focuses on the five programming problems.
+## Important note — Problem 3 sample inconsistency
+
+The PDF's written pricing formulas yield STANDARD = 15.00, EXPRESS = 24.00, and INTERNATIONAL = 145.00 for its sample input, while the printed expected output lists EXPRESS = 29.00, INTERNATIONAL = 155.00, and Total = 199.00. The `DeliveryFeeCalculator.java` solution follows the explicit business rules/formulas stated in the PDF.
